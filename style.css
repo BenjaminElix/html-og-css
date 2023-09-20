@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+}
+
+
 
 html{
     font-size: calc(1em + 1vw);
@@ -14,7 +19,7 @@ body{
 
 header{
     text-align: center;
-    background-image: url("HTML-OG-CSS/img/rocks-8208314_640.jpg");
+    background-image: url("HTML-OG-CSS/img/red or blue pill.png");
     background-size: cover;
     padding: 1rem 0 1rem 0;
     
@@ -84,4 +89,32 @@ color: #fff;
 display: inline-block;
 padding: 1rem;
 margin: 0.5rem 0;
+}
+
+
+#about-section{
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#about-section p{
+    text-align: justify;
+}
+
+#pynt{
+    background-image: url(HTML-OG-CSS/img/1_tjHTmF_1SUY6_pykU6_VpQ.gif);
+    height: 300px;
+    padding: 2rem 0;
+}
+
+#subscribe{
+    background-color: #fff;
+    padding: 1rem;
+    text-align: center;
+    
+}
+
+#subscribe form label, #subscribe form input{
+    display: block;
+    margin: 0 auto;
 }
