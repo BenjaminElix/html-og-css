@@ -3,17 +3,19 @@
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
         <title>Forside</title>
 
     </head>
     <body>
+        <!--Header område-->
         <header>
             <nav>
                 <span>
                     <a href="index.html">Logo</a>
                 </span>
                 <ul>
-                    <li><a href="about-html">About</a></li>
+                    <li><a href="#about-section">About</a></li>
                     <li><a href="#">Suscribe</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -47,13 +49,34 @@
             </section>
 
         </main>
-        <section>
+        <section id="about-section">
             <div id="pynt">
 
             </div>
             <h2>About</h2>
             <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
         </section>
+        <section>
+            <h3>Subscribe</h3>
+            <form>
+                <label for="email-signup">Email for newsletter sign-up</label>
+                <input type="text" id="email-signup">
+                <input type="submit" value="sign up">
+            </form>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                </ul>
+            </nav>
+            <ul id="Social-Icons">
+                <li>f</li>
+                <li>i</li>
+                <li>p</li>
+            </ul>
+        </footer>
 
     </body>
 </html>
